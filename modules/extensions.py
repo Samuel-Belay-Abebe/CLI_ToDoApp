@@ -1,4 +1,4 @@
-# A list of functions that don't really fit in anywhere, for now.
+"""A list of functions that don't really fit in anywhere, for now.""" 
 
 def show_commands(commands):
     """Show all available commands of the todoapp program."""
@@ -37,7 +37,7 @@ def check_quit_protocol(value):
         exit()
 
 def get_numbered_list(list):
-    """Print out the contents of a list in a numbered format if available   ."""
+    """Print out the contents of a list in a numbered format if available."""
     if list:
         for task in list:
         # Create a numbered list by using the index function and

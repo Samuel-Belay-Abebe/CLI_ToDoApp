@@ -1,3 +1,5 @@
+"""A todoapp that runs on the command line."""
+
 from modules.lists import Lists
 from modules.extensions import check_for_errors, check_quit_protocol, get_numbered_list
 
